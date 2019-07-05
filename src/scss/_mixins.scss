@@ -1,0 +1,3 @@
+@mixin elevation($distance) {
+    box-shadow: $distance $distance 2.5*$distance solid #cbcbcb, 0px 0px 2*$distance #cbcbcb;
+}

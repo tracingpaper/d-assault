@@ -1,0 +1,46 @@
+{
+  "name": "vue-starter",
+  "version": "1.0.0",
+  "description": "Vue starter kit using webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArjunAtlast/vue-starter.git"
+  },
+  "keywords": [
+    "vue",
+    "starter",
+    "webpack",
+    "typescript"
+  ],
+  "author": "arjunatlast",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArjunAtlast/vue-starter/issues"
+  },
+  "homepage": "https://github.com/ArjunAtlast/vue-starter#readme",
+  "dependencies": {
+    "vue": "^2.6.10",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5",
+    "css-loader": "^2.1.1",
+    "file-loader": "^3.0.1",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "ts-loader": "^5.4.5",
+    "typescript": "^3.4.5",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-typescript": "^7.3.3",
+    "babel-loader": "^8.0.6"
+  }
+}
