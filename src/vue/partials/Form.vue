@@ -4,7 +4,7 @@
 
         <p class="form-lead">You can verify your product using the scratch code which can be seen on the product</p>
 
-        <form class="uk-margin-medium-top" @submit.prevent="">
+        <form class="authenticate-form uk-margin-medium-top" @submit.prevent="">
 
             <input type="text" class="uk-input" placeholder="Enter scratch code here . .">
 
