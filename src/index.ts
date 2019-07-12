@@ -8,6 +8,9 @@ import './scss/app.scss'
 
 // Import App
 import MyApp from './vue/App.vue'
+
+import UIkit from 'uikit'
+(<any>window).UIkit = UIkit
 /*
  |----------------------------------------------------------
  | App Created Here

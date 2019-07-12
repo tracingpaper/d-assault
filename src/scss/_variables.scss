@@ -5,17 +5,36 @@
 */
 
 // COLORS
-$colors: (
-    primary: #E85359,
-    secondary: #C9EDEB,
-    muted: #FFF9E9,
-    tint: #FF9E92,
-    success: #359668,
-    warning: #FFD54F,
-    danger: #F13841,
-    info: #49ADEB,
-    dark: #3B3B3B,
-    light: #F2F2F2
-);
+// COLORS //
+$primary:   #ffcb05;
+$secondary: #004056;
 
-$font-family: 'Poppins', sans-serif;
+$success:   #8bc34a;
+$warning:   #ffc107;
+$danger :   #f44336;
+$muted  :   #f8f8f8;
+
+$dark   :   #2e2e2e;
+$gray   :   #7e7e7e;
+$light  :   #fff;
+
+// OVERRIDES //
+$global-primary-background: $primary;
+$global-secondary-background: $secondary;
+
+$global-success-background: $success;
+$global-warning-background: $warning;
+$global-danger-background: $danger;
+$global-muted-background: $muted;
+
+$global-link-color: $primary;
+$base-link-hover-text-decoration: none;
+
+$global-color: $light;
+$global-emphasis-color: $dark;
+$global-inverse-color: $light;
+
+$global-font-family: 'Montserrat', sans-serif;
+$global-font-size: 15px;
+
+$global-border: #f4f4f4;
