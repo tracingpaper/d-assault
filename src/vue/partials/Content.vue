@@ -1,9 +1,9 @@
 <template>
     <div class="uk-light">
         <h1 class="title">
-            Adenosine<br>
-            Monophosphate<br>
-            Injection (AMP)<br>
+            Adenosine<wbr>
+            Monophosphate<wbr>
+            Injection (AMP)<wbr>
         </h1>
 
         <h4 class="sub-title">
