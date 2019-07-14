@@ -8,8 +8,6 @@
 
             <input type="text" class="uk-input" placeholder="Enter scratch code here . ." v-model="code" required>
 
-            <span class="uk-primary">{{loading}}</span>
-
             <button type="submit" class="uk-button uk-button-primary uk-margin-top" :disabled="loading">
                 <div v-if="loading" class="uk-margin-right" uk-spinner="ratio:0.3"></div>{{loading? 'Checking' : 'Check'}}
             </button>
